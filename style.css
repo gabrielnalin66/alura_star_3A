@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
 
     :root{
-        -bg-color: #190482;
+        --bg-color: #190482;
         --primary-color: #7752FE;
         --secondary-color: #8E8FFA;
         font: "Playwrite DE Grund", cursive;
@@ -20,12 +20,6 @@
         font-size: 2rem;
         color: var(--bg-color);
         font-weight: 700;
-    }
-
-    nav {
-        display: flex;
-        justify-content: center;
-        font-weight: 400;
     }
 
     nav a {
